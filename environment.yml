@@ -1,0 +1,23 @@
+name: enzsrp
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+dependencies:
+  - python=3.12
+  - tqdm==4.67.0
+  - ijson==3.3.0
+  - rdkit==2023.09.4
+  - tabulate==0.9.0
+  - matplotlib==3.9.2
+  - pyarrow==18.0.0  # needed for pandas 3.0
+  - pip==24.3.1
+  - scikit-learn==1.5.2
+  - click==8.1.7
+  - seaborn==0.13.2
+  - requests==2.32.3
+  - jinja2==3.1.4
+  - pip:
+      - python-dotenv==1.0.1
+      - ijson==3.3.0 # ijson is much faster installed by pip, somehow
+      - -e .

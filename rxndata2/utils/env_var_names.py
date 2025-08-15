@@ -1,0 +1,8 @@
+original_uniprot_reviewed_catalytic_activity_json_file = 'ENZSRP_ORIGINAL_UNIPROT_REVIEWED_CATALYTIC_ACTIVITY_JSON_FILE'
+output_dir = 'ENZSRP_OUTPUT_DIR'
+original_rhea_rxn_dir = 'ENZSRP_ORIGINAL_RHEA_RXN_DIR'
+original_rhea2metacyc_file = 'ENZSRP_ORIGINAL_RHEA2METACYC_FILE'
+original_rhea_directions_file = 'ENZSRP_ORIGINAL_RHEA_DIRECTIONS_FILE'
+original_mcsa_data_dir = 'ENZSRP_ORIGINAL_MCSA_DATA_DIR'
+original_metacyc_reactions_dat_file = 'ENZSRP_ORIGINAL_METACYC_REACTIONS_DAT_FILE'
+isoform_uniparc_id_mapping_file = 'ENZSRP_ISOFORM_UNIPARC_ID_MAPPING_FILE'

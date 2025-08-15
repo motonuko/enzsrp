@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rxndata2"  # TODO: should be unique
+version = "1.0.0.dev0"
+description = "A Python package"
+authors = [{ name = "Tomoya Okuno", email = "motonuko.contact@gmail.com" }]
+
+[tool.setuptools.packages]
+find = { include = ["rxndata2"], exclude = ["*.tests", "*.tests.*", "tests.*", "tests"] }  # TODO: fix

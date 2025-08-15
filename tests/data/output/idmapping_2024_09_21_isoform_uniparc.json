@@ -1,0 +1,1922 @@
+{
+    "results": [
+        {
+            "from": "O14975-2",
+            "to": {
+                "uniParcId": "UPI00001CE03D",
+                "uniParcCrossReferences": [
+                    {
+                        "database": "UniProtKB/Swiss-Prot protein isoforms",
+                        "id": "O14975-2",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2012-04-18",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "SLC27A2",
+                        "proteinName": "Isoform 2 of Long-chain fatty acid transport protein 2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "UniProtKB/TrEMBL",
+                        "id": "Q6PF09",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2004-07-05",
+                        "lastUpdated": "2012-03-21"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSP00000370289",
+                        "versionI": 1,
+                        "version": 4,
+                        "active": true,
+                        "created": "2006-04-03",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "SLC27A2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "proteomeId": "UP000005640",
+                        "component": "Chromosome 15"
+                    },
+                    {
+                        "database": "RefSeq",
+                        "id": "NP_001153101",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2009-04-25",
+                        "lastUpdated": "2024-05-06",
+                        "geneName": "SLC27A2",
+                        "proteinName": "long-chain fatty acid transport protein 2 isoform 2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "ncbiGi": "227499621"
+                    },
+                    {
+                        "database": "EMBL",
+                        "id": "AAH57770",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2003-09-19",
+                        "lastUpdated": "2024-04-06",
+                        "geneName": "SLC27A2",
+                        "proteinName": "SLC27A2 protein",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "ncbiGi": "34785929"
+                    },
+                    {
+                        "database": "VEGA",
+                        "id": "OTTHUMP00000248306",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2011-10-13",
+                        "lastUpdated": "2016-12-16",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "EMBL",
+                        "id": "AIC50782",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2014-06-23",
+                        "lastUpdated": "2024-04-06",
+                        "proteinName": "SLC27A2",
+                        "organism": {
+                            "scientificName": "synthetic construct",
+                            "taxonId": 32630
+                        },
+                        "ncbiGi": "649106713"
+                    },
+                    {
+                        "database": "EMBL",
+                        "id": "SJX42166",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2017-02-15",
+                        "lastUpdated": "2024-04-06",
+                        "proteinName": "Uncharacterized protein",
+                        "organism": {
+                            "scientificName": "Human ORFeome Gateway entry vector",
+                            "taxonId": 1958742
+                        },
+                        "ncbiGi": "1147697806"
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "DM954923",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2017-11-29",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "LX759774",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2017-11-29",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "MC734436",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2021-01-28",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "USPTO",
+                        "id": "UCY31010",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-12-14",
+                        "lastUpdated": "2023-12-14"
+                    },
+                    {
+                        "database": "USPTO",
+                        "id": "WIU46512",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-12-14",
+                        "lastUpdated": "2023-12-14"
+                    },
+                    {
+                        "database": "USPTO",
+                        "id": "WOM75123",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-12-14",
+                        "lastUpdated": "2023-12-14"
+                    },
+                    {
+                        "database": "TREMBLNEW",
+                        "id": "AAH57770",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2003-10-12",
+                        "lastUpdated": "2004-06-11"
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00447606",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2004-08-04",
+                        "lastUpdated": "2011-09-27",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2006-03-20",
+                        "lastUpdated": "2006-03-20",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 2,
+                        "active": false,
+                        "created": "2006-07-02",
+                        "lastUpdated": "2006-07-02",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 3,
+                        "active": false,
+                        "created": "2006-10-02",
+                        "lastUpdated": "2006-12-27",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 4,
+                        "active": false,
+                        "created": "2007-05-16",
+                        "lastUpdated": "2007-08-07",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 5,
+                        "active": false,
+                        "created": "2007-10-05",
+                        "lastUpdated": "2007-10-05",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 6,
+                        "active": false,
+                        "created": "2008-01-18",
+                        "lastUpdated": "2008-10-08",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 7,
+                        "active": false,
+                        "created": "2008-12-25",
+                        "lastUpdated": "2009-02-13",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 8,
+                        "active": false,
+                        "created": "2009-04-09",
+                        "lastUpdated": "2010-02-24",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 10,
+                        "active": false,
+                        "created": "2010-09-09",
+                        "lastUpdated": "2010-09-09",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 11,
+                        "active": false,
+                        "created": "2012-05-07",
+                        "lastUpdated": "2012-12-19",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 12,
+                        "active": false,
+                        "created": "2013-03-18",
+                        "lastUpdated": "2013-07-12",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000259708",
+                        "versionI": 1,
+                        "version": 13,
+                        "active": false,
+                        "created": "2015-05-26",
+                        "lastUpdated": "2015-05-26",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    }
+                ],
+                "sequence": {
+                    "value": "MLSAIYTVLAGLLFLPLLVNLCCPYFFQDIGYFLKVAAVGRRVRSYGKRRPARTILRAFLEKARQTPHKPFLLFRDETLTYAQVDRRSNQVARALHDHLGLRQGDCVALLMGNEPAYVWLWLGLVKLGCAMACLNYNIRAKSLLHCFQCCGAKVLLVSPELQAAVEEILPSLKKDDVSIYYVSRTSNTDGIDSFLDKVDEVSTEPIPESWRSEVTFSTPALYIYTSGTTGATLALRTKFSASQFWDDCRKYNVTVIQYIGELLRYLCNSPQKPNDRDHKVRLALGNGLRGDVWRQFVKRFGDICIYEFYAATEGNIGFMNYARKVGAVGRVNYLQKKIITYDLIKYDVEKDEPVRDENGYCVRVPKGEVGLLVCKITQLTPFNGYAGAKAQTEKKKLRDVFKKGDLYFNSGDLLMVDHENFIYFHDRVGDTFRWKGENVATTEVADTVGLVDFVQEVNVYGVHVPDHEGRIGMASIKMKENHEFDGKKLFQHIADYLPSYARPRFLRIQDTIEITGTFKHRKMTLVEEGFNPAVIKDALYFLDDTAKMYVPMTEDIYNAISAKTLKL",
+                    "length": 567,
+                    "molWeight": 64616,
+                    "crc64": "FF3A2B0FD68177B0",
+                    "md5": "BA817AD6039455069B9ECAD2FB9BB68F"
+                },
+                "sequenceFeatures": [
+                    {
+                        "interproGroup": {
+                            "id": "IPR042099",
+                            "name": "ANL, N-terminal domain"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.40.50.12780",
+                        "locations": [
+                            {
+                                "start": 231,
+                                "end": 427
+                            },
+                            {
+                                "start": 54,
+                                "end": 230
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR045851",
+                            "name": "AMP-binding enzyme, C-terminal domain superfamily"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.30.300.30",
+                        "locations": [
+                            {
+                                "start": 430,
+                                "end": 529
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000873",
+                            "name": "AMP-dependent synthetase/ligase domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00501",
+                        "locations": [
+                            {
+                                "start": 61,
+                                "end": 231
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR025110",
+                            "name": "AMP-binding enzyme, C-terminal domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF13193",
+                        "locations": [
+                            {
+                                "start": 447,
+                                "end": 519
+                            }
+                        ]
+                    }
+                ],
+                "oldestCrossRefCreated": "2003-09-19",
+                "mostRecentCrossRefUpdated": "2024-07-24"
+            }
+        },
+        {
+            "from": "O14975-1",
+            "to": {
+                "uniParcId": "UPI000013D776",
+                "uniParcCrossReferences": [
+                    {
+                        "database": "UniProtKB/Swiss-Prot",
+                        "id": "O14975",
+                        "versionI": 2,
+                        "version": 2,
+                        "active": true,
+                        "created": "2010-10-05",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "SLC27A2",
+                        "proteinName": "Long-chain fatty acid transport protein 2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "ncbiGi": "308153494"
+                    },
+                    {
+                        "database": "UniProtKB/Swiss-Prot protein isoforms",
+                        "id": "O14975-1",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2012-04-18",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "SLC27A2",
+                        "proteinName": "Isoform 1 of Long-chain fatty acid transport protein 2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "UniProtKB/TrEMBL",
+                        "id": "Q53FY6",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2005-05-24",
+                        "lastUpdated": "2008-09-02"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSP00000267842",
+                        "versionI": 1,
+                        "version": 5,
+                        "active": true,
+                        "created": "2003-04-01",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "SLC27A2",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "proteomeId": "UP000005640",
+                        "component": "Chromosome 15"
+                    },
+                    {
+                        "database": "RefSeq",
+                        "id": "NP_003636",
+                        "versionI": 2,
+                        "version": 2,
+                        "active": true,
+                        "created": "2009-04-25",
+                        "lastUpdated": "2024-05-06",
+                        "geneName": "SLC27A2",
+                        "proteinName": "long-chain fatty acid transport protein 2 isoform 1",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        },
+                        "ncbiGi": "227499619"
+                    },
+                    {
+                        "database": "EMBL",
+                        "id": "BAD96865",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2005-04-26",
+                        "lastUpdated": "2024-04-06",
+                        "proteinName": "Solute carrier family 27 (Fatty acid transporter), member 2 variant",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NC_000015_620_0",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2006-09-13",
+                        "lastUpdated": "2007-03-23",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "VEGA",
+                        "id": "OTTHUMP00000162414",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2006-10-19",
+                        "lastUpdated": "2016-12-16",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "SEED",
+                        "id": "fig|9606.3.peg.10695",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2013-03-19",
+                        "lastUpdated": "2013-03-19",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "EPO",
+                        "id": "JB983887",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2014-03-17",
+                        "lastUpdated": "2023-05-31",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "DM954922",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2017-11-29",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "LX759773",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2017-11-29",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "JPO",
+                        "id": "MC734435",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2021-01-28",
+                        "lastUpdated": "2024-04-25",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "USPTO",
+                        "id": "WIU47426",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-12-14",
+                        "lastUpdated": "2023-12-14"
+                    },
+                    {
+                        "database": "USPTO",
+                        "id": "WOM75122",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-12-14",
+                        "lastUpdated": "2023-12-14"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_371_0",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2003-11-11",
+                        "lastUpdated": "2003-12-02"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_357_0",
+                        "versionI": 2,
+                        "active": false,
+                        "created": "2003-12-30",
+                        "lastUpdated": "2004-04-16"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_362_0",
+                        "versionI": 2,
+                        "active": false,
+                        "created": "2004-08-13",
+                        "lastUpdated": "2004-08-13"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_367_0",
+                        "versionI": 3,
+                        "active": false,
+                        "created": "2004-08-23",
+                        "lastUpdated": "2004-08-28"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_370_0",
+                        "versionI": 3,
+                        "active": false,
+                        "created": "2004-11-28",
+                        "lastUpdated": "2005-02-20"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_376_0",
+                        "versionI": 4,
+                        "active": false,
+                        "created": "2005-02-25",
+                        "lastUpdated": "2005-02-25"
+                    },
+                    {
+                        "database": "TROME",
+                        "id": "NT_010194_420_0",
+                        "versionI": 6,
+                        "active": false,
+                        "created": "2005-08-03",
+                        "lastUpdated": "2005-08-04"
+                    },
+                    {
+                        "database": "VEGA",
+                        "id": "OTTHUMP00000175803",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2006-10-19",
+                        "lastUpdated": "2011-03-01"
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2007-05-16",
+                        "lastUpdated": "2007-08-07",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 2,
+                        "active": false,
+                        "created": "2007-10-05",
+                        "lastUpdated": "2007-10-05",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 3,
+                        "active": false,
+                        "created": "2008-01-18",
+                        "lastUpdated": "2008-10-08",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 4,
+                        "active": false,
+                        "created": "2008-12-25",
+                        "lastUpdated": "2009-02-13",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 5,
+                        "active": false,
+                        "created": "2009-04-09",
+                        "lastUpdated": "2010-02-24",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00024787",
+                        "versionI": 2,
+                        "version": 2,
+                        "active": false,
+                        "created": "2010-10-08",
+                        "lastUpdated": "2011-09-27",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 7,
+                        "active": false,
+                        "created": "2010-09-09",
+                        "lastUpdated": "2010-09-09",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 8,
+                        "active": false,
+                        "created": "2012-05-07",
+                        "lastUpdated": "2012-12-19",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 9,
+                        "active": false,
+                        "created": "2013-03-18",
+                        "lastUpdated": "2013-07-12",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    },
+                    {
+                        "database": "H-InvDB",
+                        "id": "HIT000330925",
+                        "versionI": 1,
+                        "version": 10,
+                        "active": false,
+                        "created": "2015-05-26",
+                        "lastUpdated": "2015-05-26",
+                        "organism": {
+                            "scientificName": "Homo sapiens",
+                            "commonName": "Human",
+                            "taxonId": 9606
+                        }
+                    }
+                ],
+                "sequence": {
+                    "value": "MLSAIYTVLAGLLFLPLLVNLCCPYFFQDIGYFLKVAAVGRRVRSYGKRRPARTILRAFLEKARQTPHKPFLLFRDETLTYAQVDRRSNQVARALHDHLGLRQGDCVALLMGNEPAYVWLWLGLVKLGCAMACLNYNIRAKSLLHCFQCCGAKVLLVSPELQAAVEEILPSLKKDDVSIYYVSRTSNTDGIDSFLDKVDEVSTEPIPESWRSEVTFSTPALYIYTSGTTGLPKAAMITHQRIWYGTGLTFVSGLKADDVIYITLPFYHSAALLIGIHGCIVAGATLALRTKFSASQFWDDCRKYNVTVIQYIGELLRYLCNSPQKPNDRDHKVRLALGNGLRGDVWRQFVKRFGDICIYEFYAATEGNIGFMNYARKVGAVGRVNYLQKKIITYDLIKYDVEKDEPVRDENGYCVRVPKGEVGLLVCKITQLTPFNGYAGAKAQTEKKKLRDVFKKGDLYFNSGDLLMVDHENFIYFHDRVGDTFRWKGENVATTEVADTVGLVDFVQEVNVYGVHVPDHEGRIGMASIKMKENHEFDGKKLFQHIADYLPSYARPRFLRIQDTIEITGTFKHRKMTLVEEGFNPAVIKDALYFLDDTAKMYVPMTEDIYNAISAKTLKL",
+                    "length": 620,
+                    "molWeight": 70312,
+                    "crc64": "752E2FFBB2E47C26",
+                    "md5": "FA23FC52AA318DD7894B442ED114E80C"
+                },
+                "sequenceFeatures": [
+                    {
+                        "interproGroup": {
+                            "id": "IPR020845",
+                            "name": "AMP-binding, conserved site"
+                        },
+                        "database": "PROSITE",
+                        "databaseId": "PS00455",
+                        "locations": [
+                            {
+                                "start": 222,
+                                "end": 233
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR042099",
+                            "name": "ANL, N-terminal domain"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.40.50.12780",
+                        "locations": [
+                            {
+                                "start": 54,
+                                "end": 480
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR025110",
+                            "name": "AMP-binding enzyme, C-terminal domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF13193",
+                        "locations": [
+                            {
+                                "start": 500,
+                                "end": 572
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR045851",
+                            "name": "AMP-binding enzyme, C-terminal domain superfamily"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.30.300.30",
+                        "locations": [
+                            {
+                                "start": 483,
+                                "end": 582
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000873",
+                            "name": "AMP-dependent synthetase/ligase domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00501",
+                        "locations": [
+                            {
+                                "start": 61,
+                                "end": 384
+                            }
+                        ]
+                    }
+                ],
+                "oldestCrossRefCreated": "2003-04-01",
+                "mostRecentCrossRefUpdated": "2024-07-24"
+            }
+        },
+        {
+            "from": "F1MAB7-3",
+            "to": {
+                "uniParcId": "UPI0000DC007F",
+                "uniParcCrossReferences": [
+                    {
+                        "database": "UniProtKB/Swiss-Prot protein isoforms",
+                        "id": "F1MAB7-3",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2020-12-02",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "Dgki",
+                        "proteinName": "Isoform 3 of Diacylglycerol kinase iota",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "UniProtKB/TrEMBL",
+                        "id": "A0A0G2K3J7",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2015-07-22",
+                        "lastUpdated": "2022-05-25",
+                        "geneName": "Dgki",
+                        "proteinName": "Diacylglycerol kinase",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00000056604",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2006-08-02",
+                        "lastUpdated": "2009-07-01",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00000072665",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2015-05-15",
+                        "lastUpdated": "2021-03-23",
+                        "geneName": "Dgki",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "RefSeq",
+                        "id": "XP_038964302",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2021-01-22",
+                        "lastUpdated": "2024-05-06",
+                        "geneName": "Dgki",
+                        "proteinName": "diacylglycerol kinase iota isoform X11",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00782576",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2006-08-22",
+                        "lastUpdated": "2007-10-24",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    }
+                ],
+                "sequence": {
+                    "value": "MDAAGRGCHLLPLPAARGPARAPAASSALSPAGLCSGTASASSAAAGAVAMNPSSSAGEERGATGGSSSSGSGAGSCCLGAEGGVDPRGAGAAAAAALEEPAAAGQKEKEEALEEKLRDLTFRKQVSYRKAISRTGLQHLAPAHPLGLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGTEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTIVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVLSWMRLSDS",
+                    "length": 591,
+                    "molWeight": 64495,
+                    "crc64": "5AC8F061ED02F7CB",
+                    "md5": "C626EB59AFA97BD8E1528706B1367629"
+                },
+                "sequenceFeatures": [
+                    {
+                        "interproGroup": {
+                            "id": "IPR017438",
+                            "name": "Inorganic polyphosphate/ATP-NAD kinase, N-terminal"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.40.50.10330",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 498
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047486",
+                            "name": "Diacylglycerol kinase iota, first protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20850",
+                        "locations": [
+                            {
+                                "start": 163,
+                                "end": 235
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00109",
+                        "locations": [
+                            {
+                                "start": 173,
+                                "end": 227
+                            },
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00781",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 480
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00609",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 585
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047487",
+                            "name": "Diacylglycerol kinase iota, second protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20896",
+                        "locations": [
+                            {
+                                "start": 244,
+                                "end": 318
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00045",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 591
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00130",
+                        "locations": [
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR016064",
+                            "name": "NAD kinase/diacylglycerol kinase-like domain superfamily"
+                        },
+                        "database": "SUPFAM",
+                        "databaseId": "SSF111331",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 575
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR037607",
+                            "name": "Diacylglycerol kinase"
+                        },
+                        "database": "PANTHER",
+                        "databaseId": "PTHR11255",
+                        "locations": [
+                            {
+                                "start": 169,
+                                "end": 583
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "PROSITE",
+                        "databaseId": "PS50146",
+                        "locations": [
+                            {
+                                "start": 367,
+                                "end": 502
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00046",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 495
+                            }
+                        ]
+                    }
+                ],
+                "oldestCrossRefCreated": "2006-08-02",
+                "mostRecentCrossRefUpdated": "2024-07-24"
+            }
+        },
+        {
+            "from": "F1MAB7-1",
+            "to": {
+                "uniParcId": "UPI00001CF492",
+                "uniParcCrossReferences": [
+                    {
+                        "database": "UniProtKB/Swiss-Prot",
+                        "id": "F1MAB7",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2020-12-02",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "Dgki",
+                        "proteinName": "Diacylglycerol kinase iota",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "UniProtKB/Swiss-Prot protein isoforms",
+                        "id": "F1MAB7-1",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2020-12-02",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "Dgki",
+                        "proteinName": "Isoform 1 of Diacylglycerol kinase iota",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "UniProtKB/TrEMBL",
+                        "id": "F1MAB7",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2011-05-03",
+                        "lastUpdated": "2020-10-07",
+                        "geneName": "Dgki",
+                        "proteinName": "Diacylglycerol kinase",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00000034571",
+                        "versionI": 3,
+                        "version": 3,
+                        "active": true,
+                        "created": "2009-09-23",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "Dgki",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        },
+                        "proteomeId": "UP000002494",
+                        "component": "Chromosome 4"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00055042798",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-04-27",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "Dgki",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        },
+                        "proteomeId": "UP000002494",
+                        "component": "Chromosome 4"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00060035660",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-04-27",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "Dgki",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        },
+                        "proteomeId": "UP000002494",
+                        "component": "Chromosome 4"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00065021808",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": true,
+                        "created": "2023-04-27",
+                        "lastUpdated": "2023-10-19",
+                        "geneName": "Dgki",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        },
+                        "proteomeId": "UP000002494",
+                        "component": "Chromosome 4"
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00000034571",
+                        "versionI": 1,
+                        "active": false,
+                        "created": "2004-02-13",
+                        "lastUpdated": "2006-06-02",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "RefSeq",
+                        "id": "NP_942077",
+                        "versionI": 1,
+                        "version": 2,
+                        "active": true,
+                        "created": "2007-10-20",
+                        "lastUpdated": "2024-05-06",
+                        "geneName": "Dgki",
+                        "proteinName": "diacylglycerol kinase iota",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        },
+                        "ncbiGi": "158508510"
+                    },
+                    {
+                        "database": "RefSeq",
+                        "id": "XP_001067750",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2006-06-23",
+                        "lastUpdated": "2010-05-08",
+                        "ncbiGi": "109471860"
+                    },
+                    {
+                        "database": "SEED",
+                        "id": "fig|10116.3.peg.21038",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2013-03-19",
+                        "lastUpdated": "2013-03-19",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00561517",
+                        "versionI": 2,
+                        "version": 2,
+                        "active": false,
+                        "created": "2006-07-12",
+                        "lastUpdated": "2006-07-12"
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00781279",
+                        "versionI": 1,
+                        "version": 1,
+                        "active": false,
+                        "created": "2006-08-22",
+                        "lastUpdated": "2006-08-22"
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00782576",
+                        "versionI": 2,
+                        "version": 2,
+                        "active": false,
+                        "created": "2007-11-13",
+                        "lastUpdated": "2011-09-27",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    }
+                ],
+                "sequence": {
+                    "value": "MDAAGRGCHLLPLPAARGPARAPAASSALSPAGLCSGTASASSAAAGAVAMNPSSSAGEERGATGGSSSSGSGAGSCCLGAEGGVDPRGAGAAAAAALEEPAAAGQKEKEEALEEKLRDLTFRKQVSYRKAISRTGLQHLAPAHPLGLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGTEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTIVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVCDGTDLTPKIQDLKFQCIVFLNIPRYCAGTMPWGNPGDHHDFEPQRHDDGYIEVIGFTMASLAALQVGGHGERLHQCREVMLLTYKSIPMQVDGEPCRLAPAMIRISLRNQANMVQKSKRRTSMPLLNDPQSVPDRLRIRVNKISLQDYEGLHYDKEKLREASIPLGILVVRGDCDLETCRMYIDRLQEDLQSVSSGSQRVHYQDQETSFPRAISAQRLSPRWCFLDATSADRFYRIDRSQEHLHFVMEISHDEIFILDPDMVVSQQAGTPPGMPDLVVEQASGLSDWWNPALRKRMLSDSGMITPHYEDSDLKDFSHSRVLQSPVSSEDHAILQAVITGDLMKLMESYKNGGSLLIQGPGHCSLLHYAAKTGNGEIVKYILDHGPAELLDMADSETGETALHKAACQRNRAVCQLLVDAGASLRQTDSKGKTPQERAQQAGDPDLAAYLESRQNYKIIGHEDLETAV",
+                    "length": 1050,
+                    "molWeight": 115894,
+                    "crc64": "AD2B51EB74838255",
+                    "md5": "75F31F7DF6BB9362D82F0D2317B2A399"
+                },
+                "sequenceFeatures": [
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00109",
+                        "locations": [
+                            {
+                                "start": 173,
+                                "end": 227
+                            },
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002110",
+                            "name": "Ankyrin repeat"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00248",
+                        "locations": [
+                            {
+                                "start": 979,
+                                "end": 1008
+                            },
+                            {
+                                "start": 943,
+                                "end": 973
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR016064",
+                            "name": "NAD kinase/diacylglycerol kinase-like domain superfamily"
+                        },
+                        "database": "SUPFAM",
+                        "databaseId": "SSF111331",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 690
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR017438",
+                            "name": "Inorganic polyphosphate/ATP-NAD kinase, N-terminal"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.40.50.10330",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 497
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR036770",
+                            "name": "Ankyrin repeat-containing domain superfamily"
+                        },
+                        "database": "SUPFAM",
+                        "databaseId": "SSF48403",
+                        "locations": [
+                            {
+                                "start": 911,
+                                "end": 1035
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047487",
+                            "name": "Diacylglycerol kinase iota, second protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20896",
+                        "locations": [
+                            {
+                                "start": 244,
+                                "end": 318
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00045",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 678
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00130",
+                        "locations": [
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00609",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 678
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR036770",
+                            "name": "Ankyrin repeat-containing domain superfamily"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:1.25.40.20",
+                        "locations": [
+                            {
+                                "start": 890,
+                                "end": 1037
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047486",
+                            "name": "Diacylglycerol kinase iota, first protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20850",
+                        "locations": [
+                            {
+                                "start": 163,
+                                "end": 235
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00781",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 480
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00046",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 495
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "PROSITE",
+                        "databaseId": "PS50146",
+                        "locations": [
+                            {
+                                "start": 367,
+                                "end": 502
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002110",
+                            "name": "Ankyrin repeat"
+                        },
+                        "database": "PROSITE",
+                        "databaseId": "PS50088",
+                        "locations": [
+                            {
+                                "start": 979,
+                                "end": 1011
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR037607",
+                            "name": "Diacylglycerol kinase"
+                        },
+                        "database": "PANTHER",
+                        "databaseId": "PTHR11255",
+                        "locations": [
+                            {
+                                "start": 169,
+                                "end": 704
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002110",
+                            "name": "Ankyrin repeat"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF12796",
+                        "locations": [
+                            {
+                                "start": 943,
+                                "end": 1010
+                            }
+                        ]
+                    }
+                ],
+                "oldestCrossRefCreated": "2004-02-13",
+                "mostRecentCrossRefUpdated": "2024-07-24"
+            }
+        },
+        {
+            "from": "F1MAB7-2",
+            "to": {
+                "uniParcId": "UPI0000DC007E",
+                "uniParcCrossReferences": [
+                    {
+                        "database": "UniProtKB/Swiss-Prot protein isoforms",
+                        "id": "F1MAB7-2",
+                        "versionI": 1,
+                        "active": true,
+                        "created": "2020-12-02",
+                        "lastUpdated": "2024-07-24",
+                        "geneName": "Dgki",
+                        "proteinName": "Isoform 2 of Diacylglycerol kinase iota",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "Ensembl",
+                        "id": "ENSRNOP00000034571",
+                        "versionI": 2,
+                        "active": false,
+                        "created": "2006-08-02",
+                        "lastUpdated": "2009-07-01",
+                        "organism": {
+                            "scientificName": "Rattus norvegicus",
+                            "commonName": "Rat",
+                            "taxonId": 10116
+                        }
+                    },
+                    {
+                        "database": "IPI",
+                        "id": "IPI00561517",
+                        "versionI": 3,
+                        "version": 3,
+                        "active": false,
+                        "created": "2006-08-22",
+                        "lastUpdated": "2007-10-24"
+                    }
+                ],
+                "sequence": {
+                    "value": "MDAAGRGCHLLPLPAARGPARAPAASSALSPAGLCSGTASASSAAAGAVAMNPSSSAGEERGATGGSSSSGSGAGSCCLGAEGGVDPRGAGAAAAAALEEPAAAGQKEKEEALEEKLRDLTFRKQVSYRKAISRTGLQHLAPAHPLGLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGTEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTIVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVCDGTDLTPKIQDLKFQCIVFLNIPRYCAGTMPWGNPGDHHDFEPQRHDDGYIEVIGFTMASLAALQVGGHGERLHQCREVMLLTYKSIPMQVDGEPCRLAPAMIRISLRNQANMVQKSKRRTSMPLLNDPQSVPDRLRIRVNKISLQDYEGLHYDKEKLREASIPLGILVVRGDCDLETCRMYIDRLQEDLQSVSSGSQRVHYQDQETSFPRAISAQRLSPRWCFLDATSADRFYRIDRSQACFSPLGTFALCDGDFS",
+                    "length": 840,
+                    "molWeight": 92788,
+                    "crc64": "3478CE61FD8E369D",
+                    "md5": "D8F6F69A8865CFF9EE2F628C44A40BD1"
+                },
+                "sequenceFeatures": [
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00045",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 678
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "PROSITE",
+                        "databaseId": "PS50146",
+                        "locations": [
+                            {
+                                "start": 367,
+                                "end": 502
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00130",
+                        "locations": [
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047486",
+                            "name": "Diacylglycerol kinase iota, first protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20850",
+                        "locations": [
+                            {
+                                "start": 163,
+                                "end": 235
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR000756",
+                            "name": "Diacylglycerol kinase, accessory domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00609",
+                        "locations": [
+                            {
+                                "start": 521,
+                                "end": 678
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "Pfam",
+                        "databaseId": "PF00781",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 480
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR047487",
+                            "name": "Diacylglycerol kinase iota, second protein kinase C conserved region 1"
+                        },
+                        "database": "CDD",
+                        "databaseId": "cd20896",
+                        "locations": [
+                            {
+                                "start": 244,
+                                "end": 318
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR002219",
+                            "name": "Protein kinase C-like, phorbol ester/diacylglycerol-binding domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00109",
+                        "locations": [
+                            {
+                                "start": 173,
+                                "end": 227
+                            },
+                            {
+                                "start": 246,
+                                "end": 304
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR017438",
+                            "name": "Inorganic polyphosphate/ATP-NAD kinase, N-terminal"
+                        },
+                        "database": "Gene3D",
+                        "databaseId": "G3DSA:3.40.50.10330",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 497
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR037607",
+                            "name": "Diacylglycerol kinase"
+                        },
+                        "database": "PANTHER",
+                        "databaseId": "PTHR11255",
+                        "locations": [
+                            {
+                                "start": 169,
+                                "end": 704
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR016064",
+                            "name": "NAD kinase/diacylglycerol kinase-like domain superfamily"
+                        },
+                        "database": "SUPFAM",
+                        "databaseId": "SSF111331",
+                        "locations": [
+                            {
+                                "start": 368,
+                                "end": 690
+                            }
+                        ]
+                    },
+                    {
+                        "interproGroup": {
+                            "id": "IPR001206",
+                            "name": "Diacylglycerol kinase, catalytic domain"
+                        },
+                        "database": "SMART",
+                        "databaseId": "SM00046",
+                        "locations": [
+                            {
+                                "start": 371,
+                                "end": 495
+                            }
+                        ]
+                    }
+                ],
+                "oldestCrossRefCreated": "2006-08-02",
+                "mostRecentCrossRefUpdated": "2024-07-24"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+.idea
+.env
+/data/
+/build/
+/rxndata2.egg-info
+/bin/local
+/output/
