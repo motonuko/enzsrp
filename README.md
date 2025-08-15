@@ -49,7 +49,8 @@ In the result page, click 'download' button and download them with 'JSON' format
 In the end, add the downloaded file path to `.env`
 
 ```
-ORIGINAL_UNIPROT_REVIEWED_CATALYTIC_ACTIVITY_JSON_FILE="<path-to-downloaded-file>"
+ENZSRP_ORIGINAL_UNIPROT_REVIEWED_CATALYTIC_ACTIVITY_JSON_FILE="<path-to-downloaded-file>"
+ENZSRP_OUTPUT_DIR="<path-to-project-root>/output"
 ```
 
 If you need exact same original data, please check https://www.uniprot.org/help/synchronization and ftp site to
@@ -59,16 +60,16 @@ get original data.
 
 Access https://www.rhea-db.org/help/download and download the following files.
 
-- Reactions in `RDF` format
+- Reactions in `RXN` format
 - `rhea-directions.tsv`
 - `rhea2metacyc.tsv`
 
 In the end, add the downloaded files paths to `.env`
 
 ```
-ORIGINAL_RHEA_DIRECTIONS_FILE="<path-to-downloaded-file-dir>/rhea-directions.tsv"
-ORIGINAL_RHEA2METACYC_FILE="<path-to-downloaded-file-dir>/rhea2metacyc.tsv"
-ORIGINAL_RHEA_RXN_DIR="<path-to-downloaded-dir-parent-dir>/rxn"
+ENZSRP_ORIGINAL_RHEA_DIRECTIONS_FILE="<path-to-downloaded-file-dir>/rhea-directions.tsv"
+ENZSRP_ORIGINAL_RHEA2METACYC_FILE="<path-to-downloaded-file-dir>/rhea2metacyc.tsv"
+ENZSRP_ORIGINAL_RHEA_RXN_DIR="<path-to-downloaded-dir-parent-dir>/rxn"
 ```
 
 ### 3.3. Download UniParc id mapping
@@ -78,7 +79,7 @@ Some catalytic activity information in UniProt contains isoforms. To get isoform
 Add the downloaded files paths to `.env`. This will be used as default output path in the following steps.
 
 ```
-ISOFORM_UNIPARC_ID_MAPPING_FILE="<path-to-downloaded-idmapping_NNNN_NN_NN_isoform_uniparc.json>/"
+ENZSRP_ISOFORM_UNIPARC_ID_MAPPING_FILE="<path-to-downloaded-idmapping_NNNN_NN_NN_isoform_uniparc.json>/"
 ```
 
 ```shell
@@ -105,7 +106,7 @@ https://metacyc.org/publications.shtml
 In the end, add the downloaded files paths to `.env`
 
 ```
-DATA_ORIGINAL_METACYC_REACTIONS_DAT="<path-to-metacyc-reactions.dat-file>"
+ENZSRP_ORIGINAL_METACYC_REACTIONS_DAT_FILE="<path-to-metacyc-reactions.dat-file>"
 ```
 
 ### 3.5. Download M-CSA dataset (optional)
@@ -113,22 +114,10 @@ DATA_ORIGINAL_METACYC_REACTIONS_DAT="<path-to-metacyc-reactions.dat-file>"
 Download from: https://www.ebi.ac.uk/thornton-srv/m-csa/download/
 
 ```
-DATA_ORIGINAL_MCSA_DATA_DIR="<path-to-m-csa-dataset>"
+ENZSRP_ORIGINAL_MCSA_DATA_DIR="<path-to-m-csa-dataset>"
 ```
 
 ## 3. Create Enzyme Sequence Reaction Pair (EnzSRP) dataset
-
-### 3.1. Setup output dir
-
-```shell
-OUTPUT_DIR="<project_root>/output"
-```
-
-### 3.2. Run
-
-```shell
-python bin/create_dataset.py build-enzyme-reaction-dataset
-```
 
 ```shell
 python bin/create_dataset.py build-enzyme-reaction-dataset --allow-non-exp-evidence
