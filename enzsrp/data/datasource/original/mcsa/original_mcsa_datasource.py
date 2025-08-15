@@ -5,9 +5,9 @@ from collections import defaultdict
 from dataclasses import dataclass, asdict
 from typing import List, Optional
 
-from rxndata2.data.datasource.original.mcsa.mcsa_entity import ResidueSequence, McsaEntry
-from rxndata2.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity
-from rxndata2.domain.entity.amino_acid import three_to_one
+from enzsrp.data.datasource.original.mcsa.mcsa_entity import ResidueSequence, McsaEntry
+from enzsrp.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity
+from enzsrp.domain.entity.amino_acid import three_to_one
 
 
 # Intended for use by other classes

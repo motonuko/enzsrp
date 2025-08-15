@@ -5,9 +5,9 @@ from typing import Optional
 
 import click
 
-from rxndata2.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
-from rxndata2.data.datasource.remote.uniprot_id_mapping_ext import submit_id_mapping_task_and_download_file
-from rxndata2.utils import env_var_names
+from enzsrp.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
+from enzsrp.data.datasource.remote.uniprot_id_mapping_ext import submit_id_mapping_task_and_download_file
+from enzsrp.utils import env_var_names
 
 
 def _download_isoform_id_uniparc_mapping(uniprot_entries_json: Path, output_dir: Path):

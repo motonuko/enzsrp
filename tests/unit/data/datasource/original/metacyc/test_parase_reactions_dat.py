@@ -1,9 +1,9 @@
 import unittest
 
 # noinspection PyProtectedMember
-from rxndata2.data.datasource.original.metacyc.parse_reactions_dat import MetaCycDirectionMapper, \
+from enzsrp.data.datasource.original.metacyc.parse_reactions_dat import MetaCycDirectionMapper, \
     _extract_rhea_id_from_line
-from rxndata2.domain.entity.reaction_direciton import MetaCycDirection
+from enzsrp.domain.entity.reaction_direciton import MetaCycDirection
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

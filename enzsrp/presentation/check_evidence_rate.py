@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 
 load_dotenv()
 
-from rxndata2.utils import env_var_names
+from enzsrp.utils import env_var_names
 
 
 def check_evidence_ratio(data_path: Path):

@@ -1,6 +1,6 @@
 import unittest
 
-from rxndata2.domain.entity.evidence_and_clusion_ontology import ECO
+from enzsrp.domain.entity.evidence_and_clusion_ontology import ECO
 
 
 class TestUniqueEnumValues(unittest.TestCase):

@@ -2,8 +2,8 @@ from unittest import TestCase
 
 from rdkit.Chem import AllChem
 
-from rxndata2.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
-from rxndata2.domain.entity.reaction_direciton import RheaDirectionName
+from enzsrp.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
+from enzsrp.domain.entity.reaction_direciton import RheaDirectionName
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

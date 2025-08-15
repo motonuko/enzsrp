@@ -1,7 +1,7 @@
 import json
 from typing import List
 
-from rxndata2.data.datasource.remote.uniprot_id_mapping import submit_id_mapping, check_id_mapping_results_ready, \
+from enzsrp.data.datasource.remote.uniprot_id_mapping import submit_id_mapping, check_id_mapping_results_ready, \
     get_id_mapping_results_link, get_id_mapping_results_search
 
 

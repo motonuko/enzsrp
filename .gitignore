@@ -2,6 +2,6 @@
 .env
 /data/
 /build/
-/rxndata2.egg-info
+/enzsrp.egg-info
 /bin/local
 /output/

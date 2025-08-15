@@ -4,7 +4,7 @@ from typing import Generator
 import ijson
 from tqdm import tqdm
 
-from rxndata2.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity
+from enzsrp.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity
 
 
 class OriginalUniprotDataSource:

@@ -6,7 +6,7 @@ from typing import Optional
 
 from dotenv import load_dotenv
 
-from rxndata2.utils import env_var_names
+from enzsrp.utils import env_var_names
 
 load_dotenv()
 

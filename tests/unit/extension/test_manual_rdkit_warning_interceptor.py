@@ -1,6 +1,6 @@
 from rdkit.Chem import AllChem
 
-from rxndata2.extension.rdkit_warning import RDKitWarningInterceptor
+from enzsrp.extension.rdkit_warning import RDKitWarningInterceptor
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

@@ -2,10 +2,10 @@ import json
 import unittest
 from datetime import datetime
 
-from rxndata2.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity, LocationModifier, \
+from enzsrp.data.datasource.original.uniprot.uniprot_entity import EntryWithCatalyticActivity, LocationModifier, \
     Isoform, RheaReference, RheaID
-from rxndata2.domain.entity.evidence_and_clusion_ontology import ECO
-from rxndata2.domain.entity.reaction_direciton import ReactionDirection
+from enzsrp.domain.entity.evidence_and_clusion_ontology import ECO
+from enzsrp.domain.entity.reaction_direciton import ReactionDirection
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

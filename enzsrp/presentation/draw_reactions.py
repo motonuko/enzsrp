@@ -7,7 +7,7 @@ import tqdm
 from PIL import ImageDraw
 from rdkit.Chem import AllChem, Draw
 
-from rxndata2.utils import env_var_names
+from enzsrp.utils import env_var_names
 
 
 @click.command()

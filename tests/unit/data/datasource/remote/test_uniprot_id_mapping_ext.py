@@ -3,16 +3,16 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch, Mock, mock_open
 
-from rxndata2.data.datasource.remote.uniprot_id_mapping import API_URL
-from rxndata2.data.datasource.remote.uniprot_id_mapping_ext import submit_id_mapping_task_and_download_file
+from enzsrp.data.datasource.remote.uniprot_id_mapping import API_URL
+from enzsrp.data.datasource.remote.uniprot_id_mapping_ext import submit_id_mapping_task_and_download_file
 
 
 class UniprotIdMappingExtTest(TestCase):
     # NOTE: the order of patches and arguments is reversed
     @patch('builtins.open', new_callable=mock_open)
-    @patch('rxndata2.data.datasource.remote.uniprot_id_mapping.requests.post')
-    @patch('rxndata2.data.datasource.remote.uniprot_id_mapping.requests.Session.get')
-    @patch('rxndata2.data.datasource.remote.uniprot_id_mapping_ext.get_id_mapping_results_search')
+    @patch('enzsrp.data.datasource.remote.uniprot_id_mapping.requests.post')
+    @patch('enzsrp.data.datasource.remote.uniprot_id_mapping.requests.Session.get')
+    @patch('enzsrp.data.datasource.remote.uniprot_id_mapping_ext.get_id_mapping_results_search')
     def test_submit_id_mapping_task_and_download_file(self, mock_get_id_mapping_results_search, mock_session_get,
                                                       mock_requests_post, mock_open_func):
         mock_job_id = 'mock_job_id'

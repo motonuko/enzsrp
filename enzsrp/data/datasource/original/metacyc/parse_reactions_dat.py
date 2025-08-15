@@ -3,8 +3,8 @@ from typing import Optional
 
 import pandas as pd
 
-from rxndata2.domain.entity.reaction_direciton import MetaCycDirection
-from rxndata2.utils.list_utils import get_first_from_single_list
+from enzsrp.domain.entity.reaction_direciton import MetaCycDirection
+from enzsrp.utils.list_utils import get_first_from_single_list
 
 UNIQUE_ID_TAG = "UNIQUE-ID"
 RHEA_TAG = "DBLINKS - (RHEA"

@@ -3,7 +3,7 @@ from unittest import TestCase
 
 from tqdm import tqdm
 
-from rxndata2.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
+from enzsrp.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

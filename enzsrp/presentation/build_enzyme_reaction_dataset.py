@@ -8,18 +8,18 @@ import click
 import pandas as pd
 from rdkit.Chem import AllChem
 
-from rxndata2.data.datasource.original.mcsa.original_mcsa_datasource import MCSAResidueSequence, OriginalMCSADataSource
-from rxndata2.data.datasource.original.metacyc.parse_reactions_dat import MetaCycDirectionMapper
-from rxndata2.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
-from rxndata2.data.datasource.original.uniprot.id_mapping_data_source import IsoformIdMappingDataSource
-from rxndata2.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
-from rxndata2.data.datasource.original.uniprot.uniprot_entity import BindingSite, EntryWithCatalyticActivity, \
+from enzsrp.data.datasource.original.mcsa.original_mcsa_datasource import MCSAResidueSequence, OriginalMCSADataSource
+from enzsrp.data.datasource.original.metacyc.parse_reactions_dat import MetaCycDirectionMapper
+from enzsrp.data.datasource.original.rhea.original_rhea_datasource import OriginalRheaDatasource
+from enzsrp.data.datasource.original.uniprot.id_mapping_data_source import IsoformIdMappingDataSource
+from enzsrp.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
+from enzsrp.data.datasource.original.uniprot.uniprot_entity import BindingSite, EntryWithCatalyticActivity, \
     RheaReference, CatalyticActivity
-from rxndata2.domain.entity.evidence_and_clusion_ontology import ECO
-from rxndata2.domain.entity.reaction_direciton import ReactionDirection
-from rxndata2.extension.parse_reaction import get_all_mol_names_in_rxn
-from rxndata2.utils import env_var_names
-from rxndata2.utils.list_utils import get_first_from_single_set
+from enzsrp.domain.entity.evidence_and_clusion_ontology import ECO
+from enzsrp.domain.entity.reaction_direciton import ReactionDirection
+from enzsrp.extension.parse_reaction import get_all_mol_names_in_rxn
+from enzsrp.utils import env_var_names
+from enzsrp.utils.list_utils import get_first_from_single_set
 
 
 class DirectionSource(Enum):

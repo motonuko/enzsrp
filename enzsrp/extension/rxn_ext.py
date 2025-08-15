@@ -3,7 +3,7 @@ from typing import Optional
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-from rxndata2.extension.mol_ext import remove_atom_mapping
+from enzsrp.extension.mol_ext import remove_atom_mapping
 
 
 def remove_atom_mapping_and_h_from_reaction_smiles(reaction_smiles: str) -> Optional[str]:

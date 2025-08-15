@@ -5,9 +5,9 @@ from typing import Optional, Set
 import pandas as pd
 from rdkit.Chem import AllChem
 
-from rxndata2.domain.entity.reaction_direciton import RheaDirectionName
-from rxndata2.extension.parse_reaction import reaction_from_rxn_block_with_mol_title
-from rxndata2.extension.rdkit_warning import RDKitWarningInterceptor, AmbiguousStereoChemistryWarningException, \
+from enzsrp.domain.entity.reaction_direciton import RheaDirectionName
+from enzsrp.extension.parse_reaction import reaction_from_rxn_block_with_mol_title
+from enzsrp.extension.rdkit_warning import RDKitWarningInterceptor, AmbiguousStereoChemistryWarningException, \
     Tagged3DBut2DMarkersFoundException
 
 

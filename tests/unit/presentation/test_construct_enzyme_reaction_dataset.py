@@ -2,9 +2,9 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch
 
-from rxndata2.data.datasource.original.uniprot.uniprot_entity import RheaReference, RheaID
-from rxndata2.domain.entity.reaction_direciton import MetaCycDirection, ReactionDirection
-from rxndata2.presentation.build_enzyme_reaction_dataset import EnzymeReactionDatasetBuilder
+from enzsrp.data.datasource.original.uniprot.uniprot_entity import RheaReference, RheaID
+from enzsrp.domain.entity.reaction_direciton import MetaCycDirection, ReactionDirection
+from enzsrp.presentation.build_enzyme_reaction_dataset import EnzymeReactionDatasetBuilder
 from tests.test_utils.test_default_path import TestDefaultPath
 
 
@@ -30,9 +30,9 @@ class TestEnzymeReactionDatasetConstructor(TestCase):
         self.rhea_ref = RheaReference(database='Rhea', db_id=RheaID('RHEA:10001'))
 
     @patch(
-        'rxndata2.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
+        'enzsrp.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
     @patch(
-        'rxndata2.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
+        'enzsrp.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
     def test_get_metacyc_directions_1(self, metacyc_rhea_id_to_cyc_id_func, rhea_id_to_metacyc_func):
         rhea_id_to_metacyc_func.return_value = ['cyc_id_1', 'cyc_id_2']
         metacyc_rhea_id_to_cyc_id_func.return_value = MetaCycDirection.RIGHT_TO_LEFT
@@ -40,9 +40,9 @@ class TestEnzymeReactionDatasetConstructor(TestCase):
         self.assertEqual([ReactionDirection.RIGHT_TO_LEFT], result)
 
     @patch(
-        'rxndata2.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
+        'enzsrp.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
     @patch(
-        'rxndata2.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
+        'enzsrp.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
     def test_get_metacyc_directions_2(self, metacyc_rhea_id_to_cyc_id_func, rhea_id_to_metacyc_func):
         rhea_id_to_metacyc_func.return_value = ['cyc_id_1', 'cyc_id_2']
 
@@ -56,9 +56,9 @@ class TestEnzymeReactionDatasetConstructor(TestCase):
         self.assertEqual([ReactionDirection.LEFT_TO_RIGHT, ReactionDirection.RIGHT_TO_LEFT], result)
 
     @patch(
-        'rxndata2.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
+        'enzsrp.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
     @patch(
-        'rxndata2.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
+        'enzsrp.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
     def test_get_metacyc_directions_3(self, metacyc_rhea_id_to_cyc_id_func, rhea_id_to_metacyc_func):
         rhea_id_to_metacyc_func.return_value = ['cyc_id_1', 'cyc_id_2']
 
@@ -72,9 +72,9 @@ class TestEnzymeReactionDatasetConstructor(TestCase):
         self.assertEqual([ReactionDirection.LEFT_TO_RIGHT, ReactionDirection.RIGHT_TO_LEFT], result)
 
     @patch(
-        'rxndata2.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
+        'enzsrp.data.datasource.original.rhea.original_rhea_datasource.OriginalRheaDatasource.map_rhea_id_to_metacyc_id')
     @patch(
-        'rxndata2.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
+        'enzsrp.data.datasource.original.metacyc.parse_reactions_dat.MetaCycDirectionMapper.metacyc_id_to_direction')
     def test_get_metacyc_directions_4(self, metacyc_rhea_id_to_cyc_id_func, rhea_id_to_metacyc_func):
         rhea_id_to_metacyc_func.return_value = ['cyc_id_1', 'cyc_id_2']
         metacyc_rhea_id_to_cyc_id_func.returns = None

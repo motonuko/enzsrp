@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 # NOTE: To use environment variables as click.option default values, .env file should be loaded before importing modules
 load_dotenv()
 
-from rxndata2.presentation.download_isoform_id_uniparc_mapping import \
+from enzsrp.presentation.download_isoform_id_uniparc_mapping import \
     download_isoform_id_uniparc_mapping
 
-from rxndata2.presentation.build_enzyme_reaction_dataset import build_enzyme_reaction_dataset
+from enzsrp.presentation.build_enzyme_reaction_dataset import build_enzyme_reaction_dataset
 
 
 @click.group()

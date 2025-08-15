@@ -2,7 +2,7 @@ import unittest
 
 from rdkit.Chem import AllChem
 
-from rxndata2.extension.rdkit_warning import RDKitWarningInterceptor, AmbiguousStereoChemistryWarningException
+from enzsrp.extension.rdkit_warning import RDKitWarningInterceptor, AmbiguousStereoChemistryWarningException
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

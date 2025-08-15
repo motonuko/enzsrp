@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from rxndata2.presentation.draw_reactions import draw_reactions
+from enzsrp.presentation.draw_reactions import draw_reactions
 
 
 @click.group()

@@ -1,6 +1,6 @@
 from collections import UserDict
 
-from rxndata2.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
+from enzsrp.data.datasource.original.uniprot.original_uniprot_data_source import OriginalUniprotDataSource
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

@@ -2,7 +2,7 @@ import tempfile
 from pathlib import Path
 from unittest import TestCase
 
-from rxndata2.presentation.build_enzyme_reaction_dataset import EnzymeReactionDatasetBuilder
+from enzsrp.presentation.build_enzyme_reaction_dataset import EnzymeReactionDatasetBuilder
 from tests.test_utils.test_default_path import TestDefaultPath
 
 

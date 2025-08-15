@@ -5,8 +5,8 @@ from datetime import datetime
 from enum import Enum
 from typing import Optional, List, Union
 
-from rxndata2.domain.entity.evidence_and_clusion_ontology import ECO
-from rxndata2.domain.entity.reaction_direciton import ReactionDirection
+from enzsrp.domain.entity.evidence_and_clusion_ontology import ECO
+from enzsrp.domain.entity.reaction_direciton import ReactionDirection
 
 
 @dataclass(frozen=True)
