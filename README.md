@@ -1,62 +1,63 @@
-# Enzyme Sequence Reaction Pair (EnzSRP) dataset build script.
+# Enzyme Sequence Reaction Pair (EnzSRP) Dataset Build Scripts.
 
-This repository provides scripts for creating the enzyme-sequence-reaction-pair (EnzSRP) dataset.
+This repository contains scripts to generate the enzyme sequence reaction pair (EnzSRP) dataset.
 Follow the steps below to replicate our workflow.
 
-If you want to contribute to this project, please refer to [DEVELOPMENT.md](docs/DEVELOPMENT.md).
+If you’d like to contribute, please see [DEVELOPMENT.md](docs/DEVELOPMENT.md).
 
-## 1. Setup environment
+## 1. Environment Setup
 
-### 1.1. Cloning project
+### 1.1. Clone the Repository
 
 ```shell
 git clone git@github.com:motonuko/enzsrp.git
 ```
 
-### 1.2 Create environment
+### 1.2 Create the Conda Environment
 
 ```shell
 conda env create -f environment.yml
 ```
 
-### 1.3. Place `.env` file (recommended)
+### 1.3. Configure the `.env` File (recommended)
 
-We manage all data paths using the .env file.
-These paths will serve as the default paths, simplifying the process of running scripts.
-Please create a .env file in the project's root directory:
+We use a `.env` file to manage data paths.
+Defining them here ensures consistent defaults and makes running scripts easier.
+Create the file in the project's root directory:
 
 ```shell
 touch .env
 ```
 
-You can also pass custom paths as arguments each time you run the scripts.
+You may also override paths by passing them as arguments when running scripts.
 
-## 2. Download files
+## 2. Download Files
 
-### 3.1. Download Uniprot database
+### 3.1. Download Entries from UniprotKB
 
-To show only entries that is reviewed and has catalytic activity(ies), access the following link
+To display only entries that are reviewed and have catalytic activity, use the following link:
 https://www.uniprot.org/uniprotkb?query=%28reviewed%3Atrue%29+AND+%28cc_catalytic_activity%3A*%29
 
-or put the following query text to search box in https://www.uniprot.org/
+Alternatively, you can paste the following query into the search box on https://www.uniprot.org/
 
 ```
 (reviewed:true) AND (cc_catalytic_activity:*)
 ```
 
-In the result page, click 'download' button and download them with 'JSON' format.
+On the results page, click the Download button and select the JSON format.
 
-In the end, add the downloaded file path to `.env`
+Finally, add the path of the downloaded file to your `.env` file.
 
 ```
 ENZSRP_ORIGINAL_UNIPROT_REVIEWED_CATALYTIC_ACTIVITY_JSON_FILE="<path-to-downloaded-file>"
 ENZSRP_OUTPUT_DIR="<path-to-project-root>/output"
 ```
 
-If you need exact same original data, please check https://www.uniprot.org/help/synchronization and ftp site to
-get original data.
+If you need the exact original data, please refer
+to [UniProt synchronization](https://www.uniprot.org/help/synchronization)
+and use the FTP site to download the data directly.
 
-### 3.2. Download Rhea database
+### 3.2. Download Rhea Database
 
 Access https://www.rhea-db.org/help/download and download the following files.
 
@@ -64,7 +65,7 @@ Access https://www.rhea-db.org/help/download and download the following files.
 - `rhea-directions.tsv`
 - `rhea2metacyc.tsv`
 
-In the end, add the downloaded files paths to `.env`
+Finally, add the paths of the downloaded files to your `.env` file.
 
 ```
 ENZSRP_ORIGINAL_RHEA_DIRECTIONS_FILE="<path-to-downloaded-file-dir>/rhea-directions.tsv"
@@ -72,52 +73,38 @@ ENZSRP_ORIGINAL_RHEA2METACYC_FILE="<path-to-downloaded-file-dir>/rhea2metacyc.ts
 ENZSRP_ORIGINAL_RHEA_RXN_DIR="<path-to-downloaded-dir-parent-dir>/rxn"
 ```
 
-### 3.3. Download UniParc id mapping
+### 3.3. Download UniParc ID Mapping
 
-Some catalytic activity information in UniProt contains isoforms. To get isoform sequence we need UniProc data.
-
-Add the downloaded files paths to `.env`. This will be used as default output path in the following steps.
-
-```
-ENZSRP_ISOFORM_UNIPARC_ID_MAPPING_FILE="<path-to-downloaded-idmapping_NNNN_NN_NN_isoform_uniparc.json>/"
-```
+Some catalytic activity information in UniProt includes isoforms. To obtain the isoform sequences, we need UniProc data.
 
 ```shell
 python bin/create_dataset.py download-isoform-id-uniparc-mapping
 ```
 
-### 3.4. Download MetaCyc dataset (recommended)
+Add the paths of the downloaded files to the `.env` file.
 
-To get reaction direction, we primarily use physiological reaction annotation.
-However, many items lacks of physiological annotation.
-We complete the lacking by using MetaCyc database data.
+```
+ENZSRP_ISOFORM_UNIPARC_ID_MAPPING_FILE="<path-to-downloaded-idmapping_NNNN_NN_NN_isoform_uniparc.json>/"
+```
 
-https://metacyc.org/
+### 3.4. Download MetaCyc Dataset (recommended)
 
-27.0 https://www.metacyc.org/release-notes.shtml
+To determine the reaction directions, we primarily use physiological reaction annotation.
+However, many items lack such information.
+We fill these gaps by using data from the MetaCyc database (the `reactions.dat` file).
 
-By ignoring all direction undefined activities or
-`--use-undirected-rxn` option at enzyme-reaction pair dataset creation script,
-that make script to treat all undirected direction as forward direction.
+[MetaCyc](https://metacyc.org/), [27.0](https://www.metacyc.org/release-notes.shtml)
 
-[//]: # (TODO: metacyc lisence)
-https://metacyc.org/publications.shtml
 
 In the end, add the downloaded files paths to `.env`
 
 ```
-ENZSRP_ORIGINAL_METACYC_REACTIONS_DAT_FILE="<path-to-metacyc-reactions.dat-file>"
+ENZSRP_ORIGINAL_METACYC_REACTIONS_DAT_FILE="<path-to-reactions.dat-file>"
 ```
 
-### 3.5. Download M-CSA dataset (optional)
+## 3. Create Enzyme Sequence Reaction Pair (EnzSRP) Dataset
 
-Download from: https://www.ebi.ac.uk/thornton-srv/m-csa/download/
-
-```
-ENZSRP_ORIGINAL_MCSA_DATA_DIR="<path-to-m-csa-dataset>"
-```
-
-## 3. Create Enzyme Sequence Reaction Pair (EnzSRP) dataset
+To generate the EnzSRP dataset, execute the following script.
 
 ```shell
 python bin/create_dataset.py build-enzyme-reaction-dataset --allow-non-exp-evidence
