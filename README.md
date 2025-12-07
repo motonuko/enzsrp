@@ -1,6 +1,12 @@
 # Enzyme Sequence Reaction Pair (EnzSRP) Dataset Build Scripts.
 
-This repository contains scripts to generate the enzyme sequence reaction pair (EnzSRP) dataset.
+This repository contains scripts to generate the enzyme sequence reaction pair (EnzSRP) dataset which is used in the
+following work:
+
+> Tomoya Okuno, Naoaki Ono, Md. Altaf-Ul-Amin, Shigehiko Kanaya, Self-supervised domain adaptation of protein language
+> model based solely on positive enzyme-reaction pairs, Computational and Structural Biotechnology Journal, 27, 2025,
+> 5441-5449, ISSN 2001-0370, https://doi.org/10.1016/j.csbj.2025.11.045.
+
 Follow the steps below to replicate our workflow.
 
 If you’d like to contribute, please see [DEVELOPMENT.md](docs/DEVELOPMENT.md).
